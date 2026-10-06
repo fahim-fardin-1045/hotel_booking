@@ -61,12 +61,8 @@ The project is developed and tested locally using **XAMPP**.
 - Update booking status
 
 
-## Demo
+## 3. Demo
 
 <p align="center">
-
-  <a href="https://github.com/fahim-fardin-1045/hotel_booking/blob/main/images/demo.mp4">
-    ▶️ <strong>Watch Project Demo</strong>
-  </a>
-
+  <img src="https://github.com/fahim-fardin-1045/hotel_booking/blob/main/images/202610061135-ezgif.com-video-to-gif-converter.gif" alt="Hotel Booking System Demo" width="700">
 </p>
