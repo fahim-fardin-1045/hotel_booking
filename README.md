@@ -59,3 +59,14 @@ The project is developed and tested locally using **XAMPP**.
 - Booking management
 - View booking details
 - Update booking status
+
+
+## Demo
+
+<p align="center">
+
+  <a href="https://github.com/fahim-fardin-1045/hotel_booking/blob/main/images/demo.mp4">
+    ▶️ <strong>Watch Project Demo</strong>
+  </a>
+
+</p>
