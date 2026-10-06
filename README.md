@@ -210,3 +210,33 @@ Database Workflow
                ├── check_out
                ├── payment
                └── status
+
+
+
+
+## 5. Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- jQuery
+
+### Backend
+- PHP
+- PDO (PHP Data Objects)
+
+### Database
+- MySQL
+
+### Server & Development Environment
+- XAMPP
+- Apache
+- MySQL
+- phpMyAdmin
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
