@@ -246,5 +246,4 @@ Database Workflow
 
 ### Development Tools
 - Visual Studio Code
-- Git
-- GitHub
+- Github
