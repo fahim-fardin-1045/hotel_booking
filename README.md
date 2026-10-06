@@ -64,6 +64,14 @@ The project is developed and tested locally using **XAMPP**.
 ## 3. Demo
 
 <p align="center">
+
+  <a href="https://github.com/fahim-fardin-1045/hotel_booking/blob/main/images/demo.mp4">
+    <img src="https://img.shields.io/badge/▶%20Watch%20Project%20Demo-Click%20Here-success?style=for-the-badge" alt="Watch Project Demo" />
+  </a>
+
+</p>
+
+<p align="center">
   <img src="https://github.com/fahim-fardin-1045/hotel_booking/blob/main/images/202610061135-ezgif.com-video-to-gif-converter.gif" alt="Hotel Booking System Demo" width="700">
 </p>
 
