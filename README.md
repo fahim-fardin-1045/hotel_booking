@@ -66,3 +66,147 @@ The project is developed and tested locally using **XAMPP**.
 <p align="center">
   <img src="https://github.com/fahim-fardin-1045/hotel_booking/blob/main/images/202610061135-ezgif.com-video-to-gif-converter.gif" alt="Hotel Booking System Demo" width="700">
 </p>
+
+## 4. System Workflow
+
+The Hotel Booking System follows the workflow below:
+
+```text
+                    ┌───────────────┐
+                    │     User      │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │    Homepage   │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Select Hotel  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │  View Rooms   │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌────────────────┐
+                    │ Room Details   │
+                    │ & Utilities    │
+                    └───────┬────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Select Check-in &    │
+                 │ Check-out Dates      │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Book Room     │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Booking Data  │
+                    │ Stored in DB  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Payment Page  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Demo Payment  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │   Confirmed   │
+                    │    Booking    │
+                    └───────────────┘
+
+
+
+Admin Workflow
+
+                    ┌───────────────┐
+                    │     Admin     │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │  Admin Login  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Admin         │
+                    │ Dashboard     │
+                    └───────┬───────┘
+                            │
+              ┌─────────────┼─────────────┐
+              │             │             │
+              ▼             ▼             ▼
+        ┌──────────┐  ┌──────────┐  ┌────────────┐
+        │ Hotels   │  │  Rooms   │  │ Utilities  │
+        │ Management│ │Management│  │ Management │
+        └────┬─────┘  └────┬─────┘  └─────┬──────┘
+             │             │               │
+             └─────────────┼───────────────┘
+                           │
+                           ▼
+                    ┌───────────────┐
+                    │   Bookings    │
+                    │   Management  │
+                    └───────┬───────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │ Update Booking│
+                    │     Status    │
+                    └───────────────┘
+
+Database Workflow
+
+        ┌───────────┐
+        │  Hotels   │
+        └─────┬─────┘
+              │
+              │ hotel_id
+              ▼
+        ┌───────────┐
+        │   Rooms   │
+        └─────┬─────┘
+              │
+              │ room_id
+              ▼
+      ┌─────────────────┐
+      │ room_utilities  │
+      └────────┬────────┘
+               │
+               │ utility_id
+               ▼
+        ┌─────────────┐
+        │  Utilities  │
+        └─────────────┘
+
+        ┌─────────────┐
+        │   Users     │
+        └──────┬──────┘
+               │
+               ▼
+        ┌─────────────┐
+        │  Bookings   │
+        └──────┬──────┘
+               │
+               ├── room_id
+               ├── user_id
+               ├── check_in
+               ├── check_out
+               ├── payment
+               └── status
